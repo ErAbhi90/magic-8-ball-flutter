@@ -11,11 +11,11 @@ class AdaptiveScaffold extends StatelessWidget {
       return CupertinoApp(
         home: CupertinoPageScaffold(
           child: Magic8Ball(),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.blue,
           navigationBar: CupertinoNavigationBar(
-            backgroundColor: Colors.redAccent,
+            backgroundColor: Colors.blue.shade900,
             heroTag: Text(
-              "Magic 8 Ball",
+              "Ask Me Anything",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
@@ -28,11 +28,11 @@ class AdaptiveScaffold extends StatelessWidget {
       return MaterialApp(
         home: Scaffold(
           body: Magic8Ball(),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.blue,
           appBar: AppBar(
-            backgroundColor: Colors.redAccent,
+            backgroundColor: Colors.blue.shade900,
             title: Text(
-              "Magic 8 Ball",
+              "Ask Me Anything",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
