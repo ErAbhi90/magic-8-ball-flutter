@@ -9,7 +9,12 @@ class _Magic8BallState extends State<Magic8Ball> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Image.asset('images/ball1.png'),
+      child: FlatButton(
+        child: Image.asset('images/ball1.png'),
+        onPressed: () {
+          debugPrint("I got Clicked");
+        },
+      ),
     );
   }
 }
